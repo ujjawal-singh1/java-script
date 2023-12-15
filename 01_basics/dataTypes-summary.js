@@ -30,3 +30,26 @@ const myFunction=function(){
 }
 
 console.log(typeof heros )
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive),Heap(Non-Primitive)
+
+let myYoutubename="ayodhya@bhagwan.com"
+
+let anothername=myYoutubename
+anothername="Shree Hari"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl",
+
+}
+let userTwo=userOne
+
+userTwo.email="prabhuRam@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
