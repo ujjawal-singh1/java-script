@@ -34,3 +34,14 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('id'));
+
+//destructor
+const course={
+    price:999,
+    name:"JS ki kahani",
+    instructor:"hitesh",
+}
+
+const{instructor:master}=course
+console.log(master)
+
